@@ -8,7 +8,7 @@ Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The 
 
 ## Development server back
 
-Run npm run start-back` for a dev server json-server. Server in port `http://localhost:3000/` .
+Run `npm run start-back` for a dev server json-server. Server in port `http://localhost:3000/` .
 
 ## Build
 
