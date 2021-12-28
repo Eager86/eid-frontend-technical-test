@@ -1,0 +1,43 @@
+
+
+div {
+  width:100%;
+  height:100%;
+
+  section.image {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../../../../assets/image-login.jpeg");
+  }
+
+  section.login {
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+
+  mat-card {
+    max-width: 300px;
+    min-width: 300px;
+    margin: 30vh auto;
+
+    mat-card-title {
+      h5 {
+        margin: 0;
+      }
+      margin-bottom: 1.2em;
+    }
+
+    mat-form-field {
+      width: 100%;
+    }
+
+    button {
+      margin-top: 1.5em;
+      width: 100%;
+    }
+  }
+}
+

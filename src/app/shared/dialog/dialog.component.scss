@@ -1,0 +1,45 @@
+.close-button {
+  position: relative;
+  float: right;
+  top: -18px !important;
+  right: -20px !important;
+
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border: none;
+
+  &:hover {
+    color: red;
+  }
+}
+
+mat-dialog-content {
+  padding: 0;
+
+  mat-divider {
+    padding: 0;
+    margin: 0.3em auto;
+  }
+
+  p.street-a {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
+  p.street-b {
+    font-weight: 500;
+    margin: 0;
+  }
+
+  p.street-c {
+    font-weight: 300;
+    margin: 0;
+  }
+
+  p.location {
+    margin: 0;
+  }
+}

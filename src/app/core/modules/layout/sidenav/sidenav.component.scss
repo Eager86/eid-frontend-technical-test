@@ -1,0 +1,29 @@
+mat-sidenav-container {
+  height: 85%;
+  border: 1px solid #e8f0fe;
+
+  mat-sidenav {
+    user-select: none;
+  }
+
+  mat-icon {
+    display: inline-flex;
+    vertical-align: top;
+  }
+
+  h3 {
+    display: inline;
+    margin: 0.2em;
+  }
+
+  main {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.is-active {
+  color: #3f51b5;
+}

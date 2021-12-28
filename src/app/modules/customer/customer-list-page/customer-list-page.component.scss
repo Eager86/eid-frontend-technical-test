@@ -1,0 +1,25 @@
+.mat-header-cell {
+  text-align: center;
+}
+
+.mat-cell {
+  padding: 1em;
+}
+
+.mat-row:hover {
+  cursor: pointer;
+  background-color: #E8F0FE;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 64px;
+  object-fit: cover;
+  object-position: center;
+  width: 64px;
+}
+
+.loading {
+  margin-top: 10em;
+  margin-left: -8.7em;
+}

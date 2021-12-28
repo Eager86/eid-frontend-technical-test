@@ -1,0 +1,28 @@
+<div>
+  <section class="image">
+  </section>
+  <section class="login">
+    <mat-card>
+      <mat-card-title>
+        <h5>{{WELCOME_TEXT}}</h5>{{LOGIN_TEXT}}
+      </mat-card-title>
+      <mat-card-content>
+        <form [formGroup]="loginForm" (ngSubmit)="submit()">
+          <mat-form-field>
+            <input type="text" matInput placeholder="Username" formControlName="username" autofocus>
+            <mat-error>
+              {{ERROR_USERNAME_TEXT}}
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field>
+            <input type="password" matInput placeholder="Password" formControlName="password">
+            <mat-error>
+             {{ERROR_PASSWORD_TEXT}}
+            </mat-error>
+          </mat-form-field>
+          <button type="submit" mat-raised-button color="primary">{{BUTTON_TEXT}}</button>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </section>
+</div>

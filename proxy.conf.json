@@ -1,0 +1,8 @@
+{
+    "/face/*": {
+      "target": "https://fakeface.rest/",
+      "secure": false,
+      "changeOrigin": true
+    }
+
+  }

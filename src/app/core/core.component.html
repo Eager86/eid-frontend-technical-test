@@ -1,0 +1,5 @@
+<core-home-page *ngIf="authorizedUser; else unAuthorizedUser"></core-home-page>
+
+<ng-template #unAuthorizedUser>
+  <core-login-page></core-login-page>
+</ng-template>

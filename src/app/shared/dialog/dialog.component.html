@@ -1,0 +1,15 @@
+<button class="close-button" [mat-dialog-close]="true">
+  <mat-icon>close</mat-icon>
+</button>
+<mat-dialog-content>
+  <!-- TODO: FACTORIA -->
+  <p class="street-a">{{data.address.streetA}}</p>
+  <mat-divider></mat-divider>
+  <p class="street-b">{{data.address.streetB}}</p>
+  <p class="street-c">{{data.address.streetC}}</p>
+  <mat-divider></mat-divider>
+  <p class="location">{{data.address.city}}</p>
+  <p class="location">{{data.address.state}}</p>
+  <p class="location">{{data.address.country}}</p>
+  <mat-divider></mat-divider>
+</mat-dialog-content>
